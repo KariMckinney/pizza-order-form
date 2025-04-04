@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizza Form</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
+<main>
 <body>
     <form action="/action_page.php">
         <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="Kapil"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Woods"><br><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">Last name:</label><br> 
+        <input type="text" id="lname" name="lname" value=""><br>
         <input type="submit" value="Submit">
       </form>
 <br />
@@ -38,29 +41,6 @@
       </form>
 </body>
 
-<br />
-
-<head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-</head>
-<body>
-
 <h3>Orders</h3>
 
 <table>
@@ -84,5 +64,6 @@ tr:nth-child(even) {
     <td>Large</td>
     <td>Sausage</td>
   </tr>
-</body>
+</table>
+</main>
 </html>

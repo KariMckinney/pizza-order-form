@@ -11,10 +11,10 @@
 <body>
     <form action="/action_page.php">
         <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value=""><br>
+        <input type="text" id="name-input" name="fname" value=""><br>
         <label for="lname">Last name:</label><br> 
-        <input type="text" id="lname" name="lname" value=""><br>
-        <input type="submit" value="Submit">
+        <input type="text" id="name-input" name="lname" value=""><br>
+        <input type="submit" id="name-output" value="Submit">
       </form>
 <br />
 <h3>Size of the Pizza</h3>
@@ -39,6 +39,7 @@
         <input type="checkbox" id="topping4" name="topping4" value="Boat">
         <label for="topping4"> Spinach</label>
       </form>
+      <script src="script.js" defer></script>
 </body>
 
 <h3>Orders</h3>
@@ -63,6 +64,11 @@
     <td>Maisie Preston</td>
     <td>Large</td>
     <td>Sausage</td>
+  </tr>
+  <tr>
+    <td>Siara Thompson</td>
+    <td>Medium</td>
+    <td>Pepperoni</td>
   </tr>
 </table>
 </main>

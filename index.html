@@ -11,16 +11,16 @@
 <body>
     <form action="/action_page.php">
         <label for="fname">First name:</label><br>
-        <input type="text" id="name-input" name="fname" value=""><br>
+        <input type="text" id="fname" name="fname" value=""><br>
         <label for="lname">Last name:</label><br> 
         <input type="text" id="name-input" name="lname" value=""><br>
-        <input type="submit" id="name-output" value="Submit">
+        <input type="submit" id="lname" value="Submit">
       </form>
 <br />
 <h3>Size of the Pizza</h3>
       <label for="Pizza">Choose a size</label>
 
-      <select name="pizza" id="pizza">
+      <select name="pizza" id="pizza-size">
         <option value="personal pan">Personal Pan</option>
         <option value="small">Small</option>
         <option value="medium">Medium</option>
@@ -30,14 +30,16 @@
 <br />
 <h3>Toppings on the Pizza</h3>
       <form>
-        <input type="checkbox" id="topping1" name="topping1" value="Bike">
+        <class>
+        <input type="checkbox" id="topping1" name="topping1" value="Cheese">
         <label for="topping1"> Cheese</label><br>
-        <input type="checkbox" id="topping2" name="topping2" value="Car">
+        <input type="checkbox" id="topping2" name="topping2" value="Pepperoni">
         <label for="topping2"> Pepperoni</label><br>
-        <input type="checkbox" id="topping3" name="topping3" value="Boat">
+        <input type="checkbox" id="topping3" name="topping3" value="Sausage">
         <label for="topping3"> Sausage</label><br>
-        <input type="checkbox" id="topping4" name="topping4" value="Boat">
+        <input type="checkbox" id="topping4" name="topping4" value="Spinach">
         <label for="topping4"> Spinach</label>
+        </class>
       </form>
       <script src="script.js" defer></script>
 </body>
